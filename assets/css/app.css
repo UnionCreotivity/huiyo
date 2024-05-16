@@ -449,7 +449,7 @@ body {
   overflow: hidden;
   width: 82%;
 }
-@media all and (max-width: 14400px) {
+@media all and (max-width: 1440px) {
   .card8 .left-box .c8-img-box {
     width: 88%;
   }
