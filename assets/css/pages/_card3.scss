@@ -1,0 +1,14 @@
+.card3 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+
+  .c3-img-box {
+    width: 100%;
+    overflow: hidden;
+    .c3-img {
+      width: 100%;
+    }
+  }
+}

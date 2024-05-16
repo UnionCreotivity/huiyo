@@ -1,0 +1,55 @@
+.card8 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 7vw 7vw;
+  @media all and (max-width: 1920px) {
+    padding: 6vw 5vw;
+  }
+  .right-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7vw;
+    width: 45%;
+    @media all and (max-width: 1920px) {
+      width: 50%;
+      padding-top: 13vw;
+    }
+    .big-zh-title-box {
+      @include bigZhTitle();
+      margin-left: 5vw;
+    }
+    .en-title-box {
+      @include enTitle();
+
+      border-bottom: 3px solid #94714d;
+      margin-bottom: 1vw;
+      padding-left: 5vw;
+    }
+    .zh-title-box {
+      @include zhTitle();
+      margin-bottom: 2vw;
+      margin-left: 5vw;
+    }
+    .content {
+      @include content();
+      margin-left: 5vw;
+      .content-1,
+      .content-2 {
+        margin-bottom: 2vw;
+      }
+    }
+  }
+  .left-box {
+    display: flex;
+    justify-content: right;
+    @media all and (max-width: 1920px) {
+      width: 50%;
+    }
+    .c8-img {
+      width: 90%;
+    }
+  }
+}

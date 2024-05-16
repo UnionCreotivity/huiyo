@@ -1,0 +1,32 @@
+.card9 {
+  position: relative;
+  display: flex;
+  width: 75%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-left: 3vw;
+  margin-bottom: 7vw;
+  @media all and (max-width: 1920px) {
+    padding-left: 0vw;
+    width: 80%;
+  }
+
+  .text {
+    font-size: 1.7vw;
+    font-family: "Cormorant Garamond";
+    color: #94714d;
+    font-style: italic;
+    position: relative;
+    width: 100%;
+
+    &::after {
+      background-color: #94714d;
+      content: "";
+      position: absolute;
+      top: 1.2vw;
+      left: 13vw;
+      width: 100%;
+      height: 1.7px;
+    }
+  }
+}

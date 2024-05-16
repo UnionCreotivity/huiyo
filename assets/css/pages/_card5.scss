@@ -1,0 +1,35 @@
+.card5 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  background-color: #364447;
+  justify-content: right;
+  padding: 3vw 10vw;
+  @media all and (max-width: 1440px) {
+    padding: 3vw 23vw;
+    padding-bottom: 7vw;
+  }
+  .c5-img-box {
+    width: 30%;
+    position: absolute;
+    top: -10vw;
+    left: 10vw;
+    overflow: hidden;
+
+    @media all and (max-width: 1440px) {
+      width: 35%;
+      top: -12vw;
+      left: 5vw;
+    }
+    .c5-img {
+      width: 100%;
+    }
+  }
+
+  .content {
+    color: #fff;
+    font-size: 3.5vw;
+    font-weight: 600;
+    font-family: "Cormorant Garamond";
+  }
+}

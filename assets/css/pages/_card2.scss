@@ -1,0 +1,51 @@
+.card2 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  background-color: white;
+  @media all and (max-width: 1024px) {
+    height: initial;
+  }
+  .c2-bg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    @media all and (max-width: 1024px) {
+      height: initial;
+    }
+  }
+
+  .content-box {
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    padding-top: 12vw;
+    padding-left: 5vw;
+    @media all and (max-width: 1440px) {
+      padding-top: 14vw;
+    }
+    .en-title-box {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0.5vw;
+      @include enTitle();
+      .en-title-1,
+      .en-title-2 {
+        margin-bottom: -1vw;
+      }
+    }
+
+    .zh-title-box {
+      @include zhTitle();
+      margin-bottom: 4vw;
+    }
+
+    .content {
+      @include content();
+    }
+  }
+}

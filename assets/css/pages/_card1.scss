@@ -1,0 +1,73 @@
+.card1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  padding: 7vw 5vw;
+  justify-content: space-between;
+
+  @media all and (max-width: 1024px) {
+    height: auto;
+  }
+  .left-box {
+    display: flex;
+    flex-direction: column;
+    .en-title-box {
+      font-size: 7.4vw;
+      color: #364447;
+      font-weight: 600;
+      font-family: "Cormorant Garamond";
+      .en-title-1 {
+        margin-bottom: -2vw;
+      }
+    }
+    .zh-title-box {
+      font-size: 2.2vw;
+      color: #000;
+      font-weight: bolder;
+      font-family: "Noto Serif TC", serif;
+    }
+  }
+
+  .right-box {
+    display: flex;
+    justify-content: right;
+    @media all and (max-width: 1024px) {
+      padding-top: 28vw;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      .logo-box {
+        align-self: flex-end;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1vw;
+        // .logo {
+        //   width: 23%;
+        //   align-self: center;
+        //   margin-bottom: 5%;
+        //   border: 1px solid red;
+        // }
+        // .logo-2 {
+        //   width: 65%;
+        //   align-self: flex-end;
+        //   border: 1px solid red;
+        // }
+        .logo-all {
+          width: 68%;
+          align-self: flex-end;
+        }
+      }
+
+      .text-box {
+        text-align: right;
+        font-size: 2.6vw;
+        color: #94714d;
+        // letter-spacing: 0.05em;
+      }
+    }
+  }
+}

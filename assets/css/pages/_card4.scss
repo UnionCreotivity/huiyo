@@ -1,0 +1,59 @@
+.card4 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  padding-top: 5vw;
+  padding-right: 0vw;
+  padding-bottom: 5vw;
+
+  .left-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 14vw;
+
+    .big-zh-title-box {
+      @include bigZhTitle();
+      margin-left: 5vw;
+    }
+
+    .en-title-box {
+      @include enTitle();
+      padding-left: 5vw;
+      border-bottom: 3px solid #94714d;
+      margin-bottom: 1vw;
+    }
+
+    .zh-title-box {
+      @include zhTitle();
+      margin-left: 5vw;
+    }
+
+    .content {
+      @include content();
+      margin-left: 5vw;
+
+      .content-1 {
+        margin-bottom: 2vw;
+      }
+    }
+  }
+
+  .right-box {
+    display: flex;
+    justify-content: right;
+    @media all and (max-width: 1920px) {
+      width: 60%;
+    }
+    .c4-img-box {
+      width: 80%;
+      overflow: hidden;
+      display: flex;
+      justify-content: right;
+      .c4-img {
+        width: 100%;
+      }
+    }
+  }
+}

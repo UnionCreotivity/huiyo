@@ -1,0 +1,17 @@
+.card10 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+
+  .c10-img {
+    width: 100%;
+  }
+
+  .c10-text-img {
+    position: absolute;
+    width: 30%;
+    bottom: 4vw;
+    right: 5vw;
+  }
+}

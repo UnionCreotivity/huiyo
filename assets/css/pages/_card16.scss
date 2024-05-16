@@ -1,0 +1,68 @@
+.card16 {
+  display: flex;
+  width: 100%;
+  position: relative;
+  background-color: #364447;
+  flex-direction: column;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  .top-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+    .title-box {
+      display: flex;
+      font-family: "Noto Sans";
+      font-size: 2vw;
+      font-weight: 700;
+      margin-top: 1.5vw;
+      letter-spacing: 0.05em;
+      align-self: center;
+      color: white;
+      .title-item-img {
+        width: 0.3vw;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+      }
+    }
+
+    .c16-img {
+      width: 26vw;
+      align-self: center;
+    }
+  }
+
+  .bottom-box {
+    display: flex;
+    color: white;
+    font-family: "Noto Sans";
+    letter-spacing: 0.05em;
+    justify-content: center;
+    margin-top: 6vw;
+
+    .name {
+      font-size: 2.4vw;
+      font-weight: 700;
+    }
+
+    .phone {
+      margin-left: 1vw;
+      font-size: 2.4vw;
+      align-self: center;
+
+      img {
+        width: 1.2vw;
+        margin-left: 0.7vw;
+      }
+    }
+
+    .url {
+      margin-left: 1vw;
+      font-size: 1.65vw;
+      align-self: center;
+    }
+  }
+}
