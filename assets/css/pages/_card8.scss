@@ -23,7 +23,6 @@
     }
     .en-title-box {
       @include enTitle();
-
       border-bottom: 3px solid #94714d;
       margin-bottom: 1vw;
       padding-left: 5vw;
@@ -48,8 +47,12 @@
     @media all and (max-width: 1920px) {
       width: 50%;
     }
-    .c8-img {
+    .c8-img-box {
+      overflow: hidden;
       width: 90%;
+      .c8-img {
+        width: 100%;
+      }
     }
   }
 }

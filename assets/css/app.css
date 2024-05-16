@@ -429,8 +429,12 @@ body {
     width: 50%;
   }
 }
-.card8 .left-box .c8-img {
+.card8 .left-box .c8-img-box {
+  overflow: hidden;
   width: 90%;
+}
+.card8 .left-box .c8-img-box .c8-img {
+  width: 100%;
 }
 
 .card9 {
