@@ -43,9 +43,8 @@
   .right-box {
     display: flex;
     justify-content: right;
-    @media all and (max-width: 1920px) {
-      width: 60%;
-    }
+    width: 60%;
+
     .c4-img-box {
       width: 80%;
       overflow: hidden;

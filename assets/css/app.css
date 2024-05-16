@@ -221,11 +221,7 @@ body {
 .card4 .right-box {
   display: flex;
   justify-content: right;
-}
-@media all and (max-width: 1920px) {
-  .card4 .right-box {
-    width: 60%;
-  }
+  width: 60%;
 }
 .card4 .right-box .c4-img-box {
   width: 80%;
@@ -659,7 +655,7 @@ body {
   justify-content: center;
   padding-top: 8vw;
   padding-bottom: 4vw;
-  background-image: url(/assets/images/c15_img.webp);
+  background-image: url(assets/images/c15_img.webp);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
