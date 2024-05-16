@@ -33,6 +33,9 @@
       border-bottom: 3px solid #94714d;
       margin-bottom: 1vw;
       padding-left: 5vw;
+      @media all and (max-width: 1440px) {
+        border-bottom: 1.5px solid #94714d;
+      }
     }
     .zh-title-box {
       @include zhTitle();

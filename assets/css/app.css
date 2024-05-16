@@ -408,6 +408,11 @@ body {
   margin-bottom: 1vw;
   padding-left: 5vw;
 }
+@media all and (max-width: 1440px) {
+  .card8 .right-box .en-title-box {
+    border-bottom: 1.5px solid #94714d;
+  }
+}
 .card8 .right-box .zh-title-box {
   font-size: 1.75vw;
   margin-bottom: 4vw;
