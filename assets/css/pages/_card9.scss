@@ -12,21 +12,31 @@
   }
 
   .text {
-    font-size: 1.7vw;
-    font-family: "Cormorant Garamond";
-    color: #94714d;
-    font-style: italic;
-    position: relative;
-    width: 100%;
-
+    // font-size: 1.7vw;
+    // font-family: "Cormorant Garamond";
+    // color: #94714d;
+    // font-style: italic;
+    // position: relative;
+    // width: 100%;
+    img {
+      width: 11vw;
+      @media all and (max-width: 1440px) {
+        width: 14vw;
+      }
+    }
     &::after {
       background-color: #94714d;
       content: "";
       position: absolute;
-      top: 1.2vw;
-      left: 13vw;
+      // top: 1.2vw;
+      // left: 13vw;
+      // width: 100%;
+      // height: 1px;
+
+      top: 0.7vw;
+      left: 15vw;
       width: 100%;
-      height: 1.7px;
+      height: 1px;
     }
   }
 }

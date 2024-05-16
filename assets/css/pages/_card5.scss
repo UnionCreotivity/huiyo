@@ -4,16 +4,16 @@
   display: flex;
   background-color: #364447;
   justify-content: right;
-  padding: 3vw 10vw;
+  padding: 3vw 15vw;
+  padding-bottom: 7vw;
   @media all and (max-width: 1440px) {
     padding: 3vw 23vw;
-    padding-bottom: 7vw;
   }
   .c5-img-box {
-    width: 30%;
     position: absolute;
-    top: -10vw;
-    left: 10vw;
+    width: 35%;
+    top: -12vw;
+    left: 5vw;
     overflow: hidden;
 
     @media all and (max-width: 1440px) {

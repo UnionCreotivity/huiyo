@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Cormorant+Upright:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@500;600;700&family=Noto+Serif+TC:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -242,19 +243,19 @@ body {
   display: flex;
   background-color: #364447;
   justify-content: right;
-  padding: 3vw 10vw;
+  padding: 3vw 15vw;
+  padding-bottom: 7vw;
 }
 @media all and (max-width: 1440px) {
   .card5 {
     padding: 3vw 23vw;
-    padding-bottom: 7vw;
   }
 }
 .card5 .c5-img-box {
-  width: 30%;
   position: absolute;
-  top: -10vw;
-  left: 10vw;
+  width: 35%;
+  top: -12vw;
+  left: 5vw;
   overflow: hidden;
 }
 @media all and (max-width: 1440px) {
@@ -293,6 +294,7 @@ body {
   font-weight: 600;
   font-family: "Cormorant Garamond";
   color: #94714d;
+  font-size: 4.3vw;
   color: #000;
 }
 @media all and (max-width: 1440px) {
@@ -307,10 +309,19 @@ body {
   font-family: "Noto Sans", serif;
   line-height: 1.65;
   letter-spacing: 0.05em;
+  font-family: "微軟正黑體";
 }
 @media all and (max-width: 1680px) {
   .card6 .top-box .en-title {
     line-height: 1.7;
+  }
+}
+.card6 .top-box .en-title img {
+  width: 14vw;
+}
+@media all and (max-width: 1440px) {
+  .card6 .top-box .en-title img {
+    width: 16.5vw;
   }
 }
 .card6 .bottom-box {
@@ -441,22 +452,22 @@ body {
     width: 80%;
   }
 }
-.card9 .text {
-  font-size: 1.7vw;
-  font-family: "Cormorant Garamond";
-  color: #94714d;
-  font-style: italic;
-  position: relative;
-  width: 100%;
+.card9 .text img {
+  width: 11vw;
+}
+@media all and (max-width: 1440px) {
+  .card9 .text img {
+    width: 14vw;
+  }
 }
 .card9 .text::after {
   background-color: #94714d;
   content: "";
   position: absolute;
-  top: 1.2vw;
-  left: 13vw;
+  top: 0.7vw;
+  left: 15vw;
   width: 100%;
-  height: 1.7px;
+  height: 1px;
 }
 
 .card10 {
