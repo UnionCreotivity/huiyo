@@ -245,6 +245,7 @@ body {
 @media all and (max-width: 1440px) {
   .card5 {
     padding: 3vw 23vw;
+    padding-bottom: 7vw;
   }
 }
 .card5 .c5-img-box {
