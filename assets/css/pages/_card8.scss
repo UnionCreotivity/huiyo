@@ -8,6 +8,9 @@
   @media all and (max-width: 1920px) {
     padding: 6vw 5vw;
   }
+  @media all and (max-width: 1440px) {
+    padding-left: 0vw;
+  }
   .right-box {
     display: flex;
     flex-direction: column;
@@ -16,6 +19,10 @@
     @media all and (max-width: 1920px) {
       width: 50%;
       padding-top: 13vw;
+    }
+
+    @media all and (max-width: 1440px) {
+      width: 40%;
     }
     .big-zh-title-box {
       @include bigZhTitle();
@@ -50,6 +57,9 @@
     .c8-img-box {
       overflow: hidden;
       width: 82%;
+      @media all and (max-width: 14400px) {
+        width: 88%;
+      }
       .c8-img {
         width: 100%;
       }

@@ -193,6 +193,11 @@ body {
   border-bottom: 3px solid #94714d;
   margin-bottom: 1vw;
 }
+@media all and (max-width: 1440px) {
+  .card4 .left-box .en-title-box {
+    border-bottom: 1.5px solid #94714d;
+  }
+}
 .card4 .left-box .zh-title-box {
   font-size: 1.75vw;
   margin-bottom: 4vw;
@@ -365,6 +370,11 @@ body {
     padding: 6vw 5vw;
   }
 }
+@media all and (max-width: 1440px) {
+  .card8 {
+    padding-left: 0vw;
+  }
+}
 .card8 .right-box {
   display: flex;
   flex-direction: column;
@@ -375,6 +385,11 @@ body {
   .card8 .right-box {
     width: 50%;
     padding-top: 13vw;
+  }
+}
+@media all and (max-width: 1440px) {
+  .card8 .right-box {
+    width: 40%;
   }
 }
 .card8 .right-box .big-zh-title-box {
@@ -433,6 +448,11 @@ body {
 .card8 .left-box .c8-img-box {
   overflow: hidden;
   width: 82%;
+}
+@media all and (max-width: 14400px) {
+  .card8 .left-box .c8-img-box {
+    width: 88%;
+  }
 }
 .card8 .left-box .c8-img-box .c8-img {
   width: 100%;
@@ -517,6 +537,11 @@ body {
 .card11 .top-box .en-title-box .en-title {
   border-bottom: 3px solid #94714d;
   padding-left: 5vw;
+}
+@media all and (max-width: 1440px) {
+  .card11 .top-box .en-title-box .en-title {
+    border-bottom: 1.5px solid #94714d;
+  }
 }
 .card11 .top-box .zh-title-box {
   font-size: 1.75vw;
@@ -603,6 +628,11 @@ body {
 .card13 .left-box .en-title-box .en-title {
   border-bottom: 3px solid #94714d;
   padding-left: 5vw;
+}
+@media all and (max-width: 1440px) {
+  .card13 .left-box .en-title-box .en-title {
+    border-bottom: 1.5px solid #94714d;
+  }
 }
 .card13 .left-box .zh-title-box {
   font-size: 1.75vw;
